@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        #skills, #projects {
+            margin-bottom: 20px;
+        }
+        
+        #skills ul, #projects ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        #skills li, #projects li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <img src="profile-picture.jpg" alt="Profile Picture" width="100" height="100">
+    <h1>John Doe</h1>
+    <p><a href="https://www.linkedin.com/in/johndoe/" target="_blank">LinkedIn Profile</a></p>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1: A simple to-do list app built with React and Node.js</li>
+            <li>Project 2: A personal website built with HTML, CSS, and JavaScript</li>
+            <li>Project 3: A chatbot built with Node.js and Dialogflow</li>
+        </ul>
+    </section>
 </body>
-
 </html>
